@@ -1,0 +1,36 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Virtual environments =====
+.env/
+.venv/
+env/
+conda_env/
+
+# ===== Data files =====
+data/
+*.csv
+*.xlsx
+*.parquet
+*.nc
+*.h5
+
+# ===== Model outputs =====
+models/
+checkpoints/
+logs/
+
+# ===== Figures & outputs =====
+outputs/
+results/
+
+# ===== IDE & OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
